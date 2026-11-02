@@ -1,0 +1,10 @@
+bundle:
+  name: git_cuj_sandbox
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
