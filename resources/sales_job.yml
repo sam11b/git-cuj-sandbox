@@ -1,0 +1,8 @@
+resources:
+  jobs:
+    daily_sales_job:
+      name: daily_sales_job
+      tasks:
+        - task_key: run_etl
+          notebook_task:
+            notebook_path: ../etl_notebook.py
