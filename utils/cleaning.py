@@ -1,3 +1,3 @@
 def clean_sales(df):
-    """Drop rows with null order IDs."""
+    """Remove bad rows before reporting."""
     return df.dropna(subset=["order_id"])
