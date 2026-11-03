@@ -14,5 +14,5 @@ display(df)
 
 # COMMAND ----------
 
-THRESHOLD = 500
+THRESHOLD = 1000
 print(f"Threshold is {THRESHOLD}")
